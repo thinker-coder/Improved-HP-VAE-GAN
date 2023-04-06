@@ -22,7 +22,7 @@ Environment setting Use commands in env.sh to setup the correct conda environmen
 
 For training a single image, use the following command for example:
 
-CUDA_VISIBLE_DEVICES=0 python train_image.py --image-path data/imgs/steel_8_train/1.jpg --vae-levels 3 --niter 5000 --checkname myimagetest --visualize
+CUDA_VISIBLE_DEVICES=0 python train_image.py --image-path data/imgs/**/*.jpg --vae-levels 3 --niter 5000 --checkname myimagetest --visualize
 
 Use eval_image.py to generate samples from an "experiment" folder created during training. For example, the following line will generate 100 image samples:
 
