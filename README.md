@@ -1,15 +1,3 @@
-Python implementation code for the paper titled,
-
-Title: Data augmentation in material images using the improved HP-VAE-GAN
-
-Authors: Yuexing Han1, 2, 3, Yuhong Liu1, Qiaochuan Chen1, *
-
-1 School of Computer Engineering and Science, Shanghai University, Shanghai, 200444, China
-
-2 Key Laboratory of Silicate Cultural Relics Conservation (Shanghai University), Ministry of Education, Shanghai, 200444, China
-
-3 Zhejiang Laboratory, Hangzhou, 311100, China
-
 # Improved-HP-VAE-GAN(Generative model)
 
 1.Environment
