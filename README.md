@@ -26,12 +26,12 @@ CUDA_VISIBLE_DEVICES=0 python train_image.py --image-path data/imgs/**/*.jpg --v
 
 Use eval_image.py to generate samples from an "experiment" folder created during training. For example, the following line will generate 100 image samples:
 
-CUDA_VISIBLE_DEVICES=0 python eval_image.py --num-samples 100 --exp-dir run/**/*/experiment_0
+CUDA_VISIBLE_DEVICES=0 python eval_image.py --num-samples 20 --exp-dir run/**/*/experiment_0
 
 results are saved under run/**/*/experiment_0/eval.
 
 In order to extract images, use the extract_images.py files similarly:
 
-CUDA_VISIBLE_DEVICES=0 python extract_images.py --max-samples 100 --exp-dir run/1/myimagetest/experiment_0/eval
+CUDA_VISIBLE_DEVICES=0 python extract_images.py --max-samples 20 --exp-dir run/1/myimagetest/experiment_0/eval
 
 results are saved under run/**/*/experiment_0/eval/images.
