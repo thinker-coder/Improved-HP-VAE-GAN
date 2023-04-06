@@ -12,13 +12,11 @@ Authors: Yuexing Han1, 2, 3, Yuhong Liu1, Qiaochuan Chen1, *
 
 # Improved-HP-VAE-GAN
 
-1.Requirements
-
-PyTorch-gpu == 1.7.0
+1.Environment
 
 Software development environment should be any Python integrated development environment used on an NVIDIA video card.
 
-Programming language: Python 3.8.
+Environment setting Use commands in env.sh to setup the correct conda environment
 
 2.Usage
 
